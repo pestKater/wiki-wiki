@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="en" datatype="plaintext" original="file.ext">
+	<body>
+		<trans-unit id="index.sitename">
+			<source>index.sitename</source>
+			<target>Germansicher Bund</target>
+		</trans-unit>
+		<trans-unit id="index.pagename">
+			<source>index.pagename</source>
+			<target>Startseite</target>
+		</trans-unit>
+        <trans-unit id="btn.historisches">
+			<source>btn.historisches</source>
+			<target>Historisches</target>
+		</trans-unit>
+		<trans-unit id="text.historisches">
+            <source>text.historisches</source>
+            <target>Historisches</target>
+        </trans-unit>
+        <trans-unit id="btn.anleitungen">
+            <source>btn.anleitungen</source>
+            <target>Anleitungen</target>
+        </trans-unit>
+        <trans-unit id="text.anleitungen">
+            <source>text.anleitungen</source>
+            <target>Anleitungen</target>
+        </trans-unit>
+        <trans-unit id="btn.miteinander">
+            <source>btn.miteinander</source>
+            <target>Miteinander</target>
+        </trans-unit>
+        <trans-unit id="text.miteinander">
+            <source>text.miteinander</source>
+            <target>Miteinander</target>
+        </trans-unit>
+
+        <trans-unit id="login.pagename">
+            <source>login.pagename</source>
+            <target>Anmelden</target>
+        </trans-unit>
+        <trans-unit id="login.username">
+            <source>login.username</source>
+            <target>Benutzername</target>
+        </trans-unit>
+        <trans-unit id="login.password">
+            <source>login.password</source>
+            <target>Passwort</target>
+        </trans-unit>
+        <trans-unit id="login.remember">
+            <source>login.remember</source>
+            <target>Ich möchte eingeloggt bleiben</target>
+        </trans-unit>
+        <trans-unit id="login.submit">
+            <source>login.submit</source>
+            <target>Anmelden</target>
+        </trans-unit>
+        <trans-unit id="login.modaltitle">
+            <source>login.modaltitle</source>
+            <target>Anmelden</target>
+        </trans-unit>
+        <trans-unit id="login.modalclose">
+            <source>login.modalclose</source>
+            <target>Schließen</target>
+        </trans-unit>
+
+
+        <trans-unit id="register.pagename">
+            <source>register.pagename</source>
+            <target>Account erstellen</target>
+        </trans-unit>
+        <trans-unit id="register.username">
+            <source>register.username</source>
+            <target>Benutzername</target>
+        </trans-unit>
+        <trans-unit id="register.password">
+            <source>register.password</source>
+            <target>Passwort</target>
+        </trans-unit>
+        <trans-unit id="register.email">
+            <source>register.email</source>
+            <target>Email</target>
+        </trans-unit>
+        <trans-unit id="register.password2">
+            <source>register.password2</source>
+            <target>Passwort wiederholen</target>
+        </trans-unit>
+        <trans-unit id="register.terms">
+            <source>register.terms</source>
+            <target>Ich habe die %linkStartAgb%Nutzungsbedingungen%linkEndAgb% und %linkStartPrivacy%Datenschutzbestimmungen%linkEndPrivacy% gelesen und akzeptiert</target>
+        </trans-unit>
+        <trans-unit id="register.newsletter">
+            <source>register.newsletter</source>
+            <target>Ich möchte mich für den kostenlosen Newsletter anmelden. Ich kann diese Einstellung jederzeit widerrufen,</target>
+        </trans-unit>
+        <trans-unit id="register.submit">
+            <source>register.submit</source>
+            <target>Jetzt kostenlos registrieren</target>
+        </trans-unit>
+        <trans-unit id="register.modaltitle">
+            <source>register.modaltitle</source>
+            <target>Registrieren</target>
+        </trans-unit>
+        <trans-unit id="register.modalclose">
+            <source>register.modalclose</source>
+            <target>Schließen</target>
+        </trans-unit>
+	</body>
+</file>
+</xliff>

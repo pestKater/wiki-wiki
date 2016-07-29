@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="en" datatype="plaintext" original="file.ext">
+	<body>
+		<trans-unit id="link.team">
+			<source>link.team</source>
+			<target>Das Team</target>
+		</trans-unit>
+		<trans-unit id="link.support">
+			<source>link.support</source>
+			<target>Support</target>
+		</trans-unit>
+        <trans-unit id="link.agb">
+			<source>link.agb</source>
+			<target>Nutzungsbedingungen</target>
+		</trans-unit>
+		<trans-unit id="link.privacy">
+            <source>link.privacy</source>
+            <target>Datenschutz</target>
+        </trans-unit>
+        <trans-unit id="link.impressum">
+            <source>link.impressum</source>
+            <target>Impressum</target>
+        </trans-unit>
+	</body>
+</file>
+</xliff>

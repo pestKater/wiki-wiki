@@ -1,0 +1,7 @@
+#!/bin/bash
+
+project=wiki-wiki
+/var/www/html/${project}/app/console cache:clear
+rm -rf /var/www/html/${project}/app/cache/*
+rm -rf /var/www/html/${project}/app/logs/*
+

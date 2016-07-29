@@ -1,0 +1,123 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14.11.2015, 23:38:53
+    Author     : Halldor Rolandsson
+*/
+
+body {
+    background-image: url('../assets/background.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.float-left {
+    float:left;
+}
+.float-right {
+    float:right;
+}
+.clear {
+    clear:both;
+}
+
+/* HEADER */
+.header {
+    z-index: 10;
+    width:1200px;
+    margin:auto;
+    background-color:#f6f6f6;
+    box-shadow: 0px -3px 5px 0px rgba(0,0,0,0.75);
+}
+.headerpicture {
+    text-align: center;
+}
+
+.menue {
+    padding-left:0;
+}
+.menue ul {
+    list-style: none;
+}
+.menue ul li {
+    margin-right: 20px;
+    display:inline;
+    font-size:1.2em;
+}
+.usermenue {
+    text-align: right;
+}
+.usermenue ul {
+    list-style: none;
+}
+.usermenue ul li {
+    margin-left: 20px;
+    display:inline;
+    font-size:1.2em;
+}
+
+.main {
+    z-index: 1;
+    width:1200px;
+    margin:auto;
+    background-color: white;
+    padding:40px;
+}
+.overview {
+    padding:10px;
+    text-align:center;
+}
+.overview button {
+    margin-bottom:20px;
+}
+.overview img {
+    width:75%;
+    margin-bottom:20px;
+}
+
+.footer {
+    width:1200px;
+    margin:auto;
+    background-color: #f6f6f6;
+    padding-top: 20px;
+    padding-bottom: 40px;
+}
+
+.footer ul {
+    list-style: none;
+    margin-left:0;
+}
+
+.footer ul li {
+    font-style: italic;
+}
+
+.footer a {
+    color:#ababab;
+}
+.footer a:hover,
+.footer a:active,
+.footer a:focus {
+    color:#797979;
+    text-decoration: none;
+}
+.socialmedia {
+    text-align: right;
+}
+.socialmedia ul {
+    margin-right:40px;
+}
+.socialmedia ul li {
+    display:inline-block;
+    background-color:#c8c8c8;
+    
+}
+
+.socialmedia ul li:hover,
+.socialmedia ul li:active,
+.socialmedia ul li:focus {
+    background-color:#979797;
+}

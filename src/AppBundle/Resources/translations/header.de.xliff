@@ -1,0 +1,35 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="en" datatype="plaintext" original="file.ext">
+	<body>
+		<trans-unit id="button.login">
+			<source>button.login</source>
+			<target>Anmelden</target>
+		</trans-unit>
+		<trans-unit id="button.registration">
+            <source>button.registration</source>
+            <target>Jetzt registrieren!</target>
+        </trans-unit>
+        <trans-unit id="button.logout">
+            <source>button.logout</source>
+            <target>Ausloggen</target>
+        </trans-unit>
+        <trans-unit id="menu.homepage">
+            <source>menu.homepage</source>
+            <target>Startseite</target>
+        </trans-unit>
+        <trans-unit id="menu.historisches">
+            <source>menu.historisches</source>
+            <target>Historisches</target>
+        </trans-unit>
+        <trans-unit id="menu.anleitungen">
+            <source>menu.anleitungen</source>
+            <target>Anleitungen</target>
+        </trans-unit>
+        <trans-unit id="menu.miteinander">
+            <source>menu.miteinander</source>
+            <target>Miteinander</target>
+        </trans-unit>
+	</body>
+</file>
+</xliff>

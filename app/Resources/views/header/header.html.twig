@@ -1,0 +1,50 @@
+{% trans_default_domain "header" %}
+
+<div class="header row">
+    <h1 class="headerpicture col-md-12">
+        {% image 'bundles/app/images/header.png' %}
+            <img src="{{ asset_url }}" alt="Example" />
+        {% endimage %}
+    </h1>
+    <div class="navigation">
+        <div class="menue col-md-6">
+            <ul>
+                <li><a href="{{ path('index') }}">{{ 'menu.homepage'|trans }}</a></li>
+                <li><a href="{{ path('wiki') }}">{{ 'menu.historisches'|trans }}</a></li>
+                <li><a href="{{ path('tutorial') }}">{{ 'menu.anleitungen'|trans }}</a></li>
+                <li><a href="{{ path('community') }}">{{ 'menu.miteinander'|trans }}</a></li>
+            </ul>
+        </div>
+        <div class="usermenue col-md-offset-3 col-md-3">
+            <ul>
+                {% if is_granted('IS_AUTHENTICATED_REMEMBERED') %}
+                    <li>
+                        <div class="btn-group">
+                            <button type="button" class="btn btn-default btn-sm dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                {{ app.user.username }} <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Action</a></li>
+                                <li><a href="#">Another action</a></li>
+                                <li><a href="#">Something else here</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="{{ path('logout') }}">{{ 'button.logout'|trans }}</a></li>
+                            </ul>
+                        </div>
+                    </li>
+
+                {% else %}
+                    </li><button type="button" class="btn btn-success btn-sm" data-toggle="modal" data-target="#registrationModal">
+                        {{ 'button.registration'|trans }}
+                    </button></li>
+                    </li><button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#loginModal">
+                        {{ 'button.login'|trans }}
+                    </button></li>
+                {% endif %}
+            </ul>
+        </div>
+        <div class="clear"></div>
+    </div>
+</div>
+
+{% include 'header/modals.html.twig' %}
