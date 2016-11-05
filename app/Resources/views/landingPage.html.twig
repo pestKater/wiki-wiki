@@ -1,0 +1,33 @@
+{% trans_default_domain "landingpage" %}
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{{ 'sitename' | trans }}</title>
+        {% block stylesheets %}
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" type="text/css">
+            {% stylesheets 'bundles/app/css/*' filter='cssrewrite' %}
+                <link rel="stylesheet" href="{{ asset_url }}" />
+            {% endstylesheets %}
+        {% endblock %}
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+    </head>
+    {% image 'bundles/app/images/landingpage.jpg' %}
+    <body style="background-image:url('{{ asset_url }}');">
+    {% endimage %}
+
+    <div class="text">
+        <h2>{{ 'headline' | trans }}</h2>
+        <p>{{ 'text' | trans }}<br>
+        {{ 'text2' | trans }}</p>
+        <a href="{{ path('register') }}" class="btn btn-lg btn-primary">{{ 'link.register' | trans }}</a>
+        <p><a href="{{ path('index') }}"><span>{{ 'link.continue' | trans }}</span</a></p>
+    </div>
+
+    {% block javascripts %}
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    {% endblock %}
+    </body>
+</html>

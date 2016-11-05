@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2">
+<file source-language="en" datatype="plaintext" original="file.ext">
+	<body>
+	    <trans-unit id="sitename">
+            <source>sitename</source>
+            <target>Germanischer Bund</target>
+        </trans-unit>
+		<trans-unit id="headline">
+			<source>headline</source>
+			<target>Werde Teil einer großen Gemeinschaft</target>
+		</trans-unit>
+		<trans-unit id="text">
+			<source>text</source>
+			<target>Hier findest du Informationen zu Quellen, Bauanleitungen und Gleichgesinnte in deiner Nähe.</target>
+		</trans-unit>
+		<trans-unit id="text2">
+            <source>text2</source>
+            <target>Über 2 Millionen Mitglieder können sich nicht irren!</target>
+        </trans-unit>
+        <trans-unit id="link.register">
+			<source>link.register</source>
+			<target>Jetzt kostenlos registrieren</target>
+		</trans-unit>
+		<trans-unit id="link.continue">
+            <source>link.continue</source>
+            <target>Weiter zur Seite</target>
+        </trans-unit>
+	</body>
+</file>
+</xliff>
