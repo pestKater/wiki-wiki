@@ -139,4 +139,18 @@ class SecurityController extends Controller
 
         return true;
     }
+
+    /**
+     * @Route("/promote/{username}")
+     * @Security("has_role('ROLE_ADMIN')")
+     */
+    public function promoteAction($username)
+    {
+        $userManager = $this->get('fos_user.user_manager');
+        $user = $userManager->findUserByUsername($username);
+        $user->addRole('ROLE_SUPER_ADMIN');
+        $userManager->updateUser($user);
+
+        return $this->redirectToRoute('index');
+    }
 }

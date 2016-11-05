@@ -80,6 +80,9 @@ body {
     width:75%;
     margin-bottom:20px;
 }
+.overview p {
+    text-align: justify;
+}
 
 .footer {
     width:1200px;

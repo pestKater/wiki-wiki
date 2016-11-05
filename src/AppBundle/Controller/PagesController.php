@@ -11,6 +11,7 @@ class PagesController extends Controller
 {
     /**
      * @Route("/team", name="team")
+     * @Security("has_role('ROLE_ADMIN')")
      */
     public function teamAction(Request $request)
     {
